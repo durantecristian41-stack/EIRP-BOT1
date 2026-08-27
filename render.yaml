@@ -2,7 +2,7 @@ services:
   - type: web
     name: emergenza-it-bot
     runtime: node
-    buildCommand: npm install
+    buildCommand: rm -rf node_modules && npm install --build-from-source=sqlite3
     startCommand: npm start
     healthCheckPath: /
     envVars:
