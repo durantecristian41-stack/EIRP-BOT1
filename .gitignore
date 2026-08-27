@@ -1,0 +1,6 @@
+.env
+bot.lock
+database.sqlite
+logs/
+transcripts/
+node_modules/

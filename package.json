@@ -1,0 +1,21 @@
+{
+  "name": "emergenza-it-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "canvas": "^3.2.3",
+    "discord.js": "^14.27.0",
+    "dotenv": "^17.4.2",
+    "openai": "^7.7.0",
+    "sqlite3": "^6.0.1"
+  }
+}

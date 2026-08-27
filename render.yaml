@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: emergenza-it-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: TOKEN
+        sync: false
+      - key: CLIENT_ID
+        sync: false
+      - key: GUILD_ID
+        sync: false
+      - key: AI_RESPONSE_API_KEY
+        sync: false
+      - key: AI_MODERATION_API_KEY
+        sync: false
